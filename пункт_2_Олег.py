@@ -1,0 +1,7 @@
+a = dict(num1='1', num2='2', num3='3',num4='4', num5='5')
+b = dict(new_key='new_value')
+print(a, id(a))
+a.pop('num2')
+print(a, id(a))
+a.update(b)
+print(a, id(a))
